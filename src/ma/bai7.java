@@ -13,7 +13,7 @@ public class bai7
         System.out.println("5. RBDMS");
         System.out.println("6. Learn Java By Example");
         System.out.println("=============");
-        System.out.println("Chon : ");
+        System.out.print("Chon : ");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int mark =0;
@@ -39,7 +39,7 @@ public class bai7
                 break;
 
         }
-        if ((a>0)||(a<=6)&& mark !=1)
+        if ((a<0)||(a>6)&& mark !=1)
         {
             System.out.println("Nguoi dung chon sai");
         }
