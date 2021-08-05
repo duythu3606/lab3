@@ -1,0 +1,12 @@
+GET https://localhost:8080/{{id}}
+
+###
+
+GET https://localhost:8080/{{id}}
+
+###
+
+GET https://localhost:8080/{{id}}
+
+###
+
